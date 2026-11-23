@@ -1,0 +1,5 @@
+# Versions used for the published results. Results were produced on CPU only.
+stable-baselines3==2.9.0
+gymnasium[box2d,mujoco]==1.3.0
+torch>=2.13
+numpy>=2
