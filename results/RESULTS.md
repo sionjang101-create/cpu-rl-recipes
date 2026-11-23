@@ -47,6 +47,8 @@ Per-seed means:
 - 64x64: 1072.68, 4510.33, 3946.78, 5081.36, 4124.83, 4284.85, 3414.76, 4290.72
 - 256x256: 4905.96, 4844.09, 5744.13, 4716.22, 4380.69
 
+- Model: [SionJang/ppo-Walker2d-v5](https://huggingface.co/SionJang/ppo-Walker2d-v5) (256x256, seed 0: mean 4905.96, 100/100 episodes reach 1000 steps).
+
 What the failed seed did:
 - Seed 0 with 64x64 lunges forward instead of walking and falls at around step 330. It does this in all 100 episodes.
 - The same seed with 256x256 averages 4905.96 and finishes all 100 episodes.

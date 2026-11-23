@@ -15,6 +15,8 @@ Each recipe comes with:
 
 Details and per-seed tables are in [results/RESULTS.md](results/RESULTS.md).
 
+Trained models: [LunarLander-v3](https://huggingface.co/SionJang/ppo-LunarLander-v3) · [Hopper-v5](https://huggingface.co/SionJang/ppo-Hopper-v5) · [Walker2d-v5](https://huggingface.co/SionJang/ppo-Walker2d-v5)
+
 ## Why
 
 Most published RL scores show one good run. On a new task, the questions that matter are different:
